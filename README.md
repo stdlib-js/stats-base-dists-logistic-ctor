@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Logistic;
+})();
 })();
 </script>
 ```
@@ -322,6 +324,7 @@ y = logistic.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var logistic = new Logistic( 2.0, 4.0 );
 
@@ -337,6 +340,7 @@ var s2 = logistic.variance;
 var y = logistic.cdf( 0.8 );
 // returns ~0.426
 
+})();
 })();
 </script>
 </body>
