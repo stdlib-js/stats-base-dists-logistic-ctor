@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-25)
+## Unreleased (2026-01-16)
 
 <section class="issues">
 
@@ -24,9 +24,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`872403f`](https://github.com/stdlib-js/stdlib/commit/872403fdf92d939ae463a63a6a921ca65d8387fd) - **bench:** update random value generation [(#9765)](https://github.com/stdlib-js/stdlib/pull/9765) _(by Harsh Yadav)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
--   [`0d255bc`](https://github.com/stdlib-js/stdlib/commit/0d255bc39e0a122554fbc972be6c0973abb2c48a) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/logistic` [(#5139)](https://github.com/stdlib-js/stdlib/pull/5139) _(by GK Bishnoi, Gopi Kishan)_
+-   [`0d255bc`](https://github.com/stdlib-js/stdlib/commit/0d255bc39e0a122554fbc972be6c0973abb2c48a) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/logistic` [(#5139)](https://github.com/stdlib-js/stdlib/pull/5139) _(by Gopi Kishan, Gopi Kishan)_
 
 </details>
 
@@ -40,8 +41,8 @@ This release closes the following issue:
 
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
--   GK Bishnoi
 -   Gopi Kishan
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 
